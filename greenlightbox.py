@@ -5,9 +5,13 @@ green = LED(4)
 blue = LED(17)
 
 while True:
+    button.when_pressed = green.on  
     blue.on()
     green.on()
     sleep(1)
+    button.when_released = green.off
     blue.off()
     green.off()
     sleep(1)
+button.when_pressed = blue.off
+button.when_released = blue.on

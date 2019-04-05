@@ -1,7 +1,8 @@
-from gpiozero import LED
+from gpiozero import LED, Button
 from time import sleep
 
 green = LED(4)
+button = button(2)
 blue = LED(17)
 
 while True:

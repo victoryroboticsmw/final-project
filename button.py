@@ -9,7 +9,7 @@ red = LED(17)
 while True:
     green.on
     sleep(1)
-    Green.off
+    green.off
     sleep(1)
     red.on()
     sleep(1)

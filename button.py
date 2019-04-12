@@ -7,8 +7,8 @@ button = Button(2)
 red = LED(17)
 
 while True:
-       green.on()
-        red.on()
+    green.on()
+    red.on()
     sleep(1)
     green.off()
     red.off()

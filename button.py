@@ -9,8 +9,9 @@ red = LED(17)
 while True:
     button.when_pressed = green.on  
     button.when_released = green.off
-    button.when_pressed = blue.off
-    button.when_released = blue.on
+    button.when_pressed = red.off
+    button.when_released = red
+    on
     red.on()
     sleep(1)
     red.off()

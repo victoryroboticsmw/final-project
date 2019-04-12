@@ -9,7 +9,7 @@ blue = LED(17)
 while True:
     button.when_pressed = green.on  
     button.when_released = green.off
-button.when_pressed = blue.off
-button.when_released = blue.on
-button.when_released = flappyboi.on
-button.when_pressed = flappyboi.off
+    button.when_pressed = blue.off
+    button.when_released = blue.on
+    button.when_released = flappyboi.on
+    button.when_pressed = flappyboi.off

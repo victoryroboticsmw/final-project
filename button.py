@@ -18,3 +18,4 @@ while True:
 button.when_pressed = blue.off
 button.when_released = blue.on
 button.when_released = flappyboi.on
+button.when_pressed = flappyboi.off
